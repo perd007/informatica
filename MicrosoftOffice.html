@@ -1,0 +1,3521 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 14 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Arial Unicode MS";
+	panose-1:2 11 6 4 2 2 2 2 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:10.0pt;
+	margin-left:0cm;
+	line-height:115%;
+	font-size:11.0pt;
+	font-family:"Calibri","sans-serif";}
+h1
+	{mso-style-link:"Título 1 Car";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:24.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h2
+	{mso-style-link:"Título 2 Car";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:18.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+h3
+	{mso-style-link:"Título 3 Car";
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:13.5pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p
+	{margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+pre
+	{mso-style-link:"HTML con formato previo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Courier New";}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{mso-style-link:"Texto de globo Car";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:"Tahoma","sans-serif";}
+span.Ttulo1Car
+	{mso-style-name:"Título 1 Car";
+	mso-style-link:"Título 1";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.Ttulo2Car
+	{mso-style-name:"Título 2 Car";
+	mso-style-link:"Título 2";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.Ttulo3Car
+	{mso-style-name:"Título 3 Car";
+	mso-style-link:"Título 3";
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+span.HTMLconformatoprevioCar
+	{mso-style-name:"HTML con formato previo Car";
+	mso-style-link:"HTML con formato previo";
+	font-family:"Courier New";}
+p.mw-hiero-outer, li.mw-hiero-outer, div.mw-hiero-outer
+	{mso-style-name:mw-hiero-outer;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.js-messagebox, li.js-messagebox, div.js-messagebox
+	{mso-style-name:js-messagebox;
+	margin-top:12.0pt;
+	margin-right:30.6pt;
+	margin-bottom:12.0pt;
+	margin-left:30.6pt;
+	background:#FCFCFC;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";}
+p.suggestions, li.suggestions, div.suggestions
+	{mso-style-name:suggestions;
+	margin-top:0cm;
+	margin-right:-.75pt;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.suggestions-special, li.suggestions-special, div.suggestions-special
+	{mso-style-name:suggestions-special;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:15.0pt;
+	background:white;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.suggestions-results, li.suggestions-results, div.suggestions-results
+	{mso-style-name:suggestions-results;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	background:white;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";}
+p.suggestions-result, li.suggestions-result, div.suggestions-result
+	{mso-style-name:suggestions-result;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	line-height:18.0pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.suggestions-result-current, li.suggestions-result-current, div.suggestions-result-current
+	{mso-style-name:suggestions-result-current;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#4C59A6;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.autoellipsis-matched, li.autoellipsis-matched, div.autoellipsis-matched
+	{mso-style-name:autoellipsis-matched;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.highlight, li.highlight, div.highlight
+	{mso-style-name:highlight;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.ui-helper-hidden, li.ui-helper-hidden, div.ui-helper-hidden
+	{mso-style-name:ui-helper-hidden;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.ui-helper-reset, li.ui-helper-reset, div.ui-helper-reset
+	{mso-style-name:ui-helper-reset;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-helper-clearfix, li.ui-helper-clearfix, div.ui-helper-clearfix
+	{mso-style-name:ui-helper-clearfix;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-helper-zfix, li.ui-helper-zfix, div.ui-helper-zfix
+	{mso-style-name:ui-helper-zfix;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon, li.ui-icon, div.ui-icon
+	{mso-style-name:ui-icon;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-widget-overlay, li.ui-widget-overlay, div.ui-widget-overlay
+	{mso-style-name:ui-widget-overlay;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:black;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-widget, li.ui-widget, div.ui-widget
+	{mso-style-name:ui-widget;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:9.5pt;
+	font-family:"Arial","sans-serif";}
+p.ui-widget-content, li.ui-widget-content, div.ui-widget-content
+	{mso-style-name:ui-widget-content;
+	margin-right:0cm;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#362B36;}
+p.ui-widget-header, li.ui-widget-header, div.ui-widget-header
+	{mso-style-name:ui-widget-header;
+	margin-right:0cm;
+	margin-left:0cm;
+	line-height:12.0pt;
+	background:white;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#222222;
+	font-weight:bold;}
+p.ui-state-default, li.ui-state-default, div.ui-state-default
+	{mso-style-name:ui-state-default;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#D7EBF9;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#2779AA;}
+p.ui-state-hover, li.ui-state-hover, div.ui-state-hover
+	{mso-style-name:ui-state-hover;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E4F1FB;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#0070A3;}
+p.ui-state-focus, li.ui-state-focus, div.ui-state-focus
+	{mso-style-name:ui-state-focus;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E4F1FB;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#0070A3;}
+p.ui-state-active, li.ui-state-active, div.ui-state-active
+	{mso-style-name:ui-state-active;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#F0F0F0;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.ui-state-highlight, li.ui-state-highlight, div.ui-state-highlight
+	{mso-style-name:ui-state-highlight;
+	margin-right:0cm;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#363636;}
+p.ui-state-error, li.ui-state-error, div.ui-state-error
+	{mso-style-name:ui-state-error;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#CD0A0A;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-state-error-text, li.ui-state-error-text, div.ui-state-error-text
+	{mso-style-name:ui-state-error-text;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-priority-primary, li.ui-priority-primary, div.ui-priority-primary
+	{mso-style-name:ui-priority-primary;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.ui-priority-secondary, li.ui-priority-secondary, div.ui-priority-secondary
+	{mso-style-name:ui-priority-secondary;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-state-disabled, li.ui-state-disabled, div.ui-state-disabled
+	{mso-style-name:ui-state-disabled;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-widget-shadow, li.ui-widget-shadow, div.ui-widget-shadow
+	{mso-style-name:ui-widget-shadow;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:-5.25pt;
+	margin-bottom:.0001pt;
+	background:black;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-handle, li.ui-resizable-handle, div.ui-resizable-handle
+	{mso-style-name:ui-resizable-handle;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:1.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-n, li.ui-resizable-n, div.ui-resizable-n
+	{mso-style-name:ui-resizable-n;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-s, li.ui-resizable-s, div.ui-resizable-s
+	{mso-style-name:ui-resizable-s;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-e, li.ui-resizable-e, div.ui-resizable-e
+	{mso-style-name:ui-resizable-e;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-w, li.ui-resizable-w, div.ui-resizable-w
+	{mso-style-name:ui-resizable-w;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-se, li.ui-resizable-se, div.ui-resizable-se
+	{mso-style-name:ui-resizable-se;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-sw, li.ui-resizable-sw, div.ui-resizable-sw
+	{mso-style-name:ui-resizable-sw;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-nw, li.ui-resizable-nw, div.ui-resizable-nw
+	{mso-style-name:ui-resizable-nw;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-ne, li.ui-resizable-ne, div.ui-resizable-ne
+	{mso-style-name:ui-resizable-ne;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button, li.ui-button, div.ui-button
+	{mso-style-name:ui-button;
+	margin-right:1.2pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-icon-only, li.ui-button-icon-only, div.ui-button-icon-only
+	{mso-style-name:ui-button-icon-only;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-icons-only, li.ui-button-icons-only, div.ui-button-icons-only
+	{mso-style-name:ui-button-icons-only;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-buttonset, li.ui-buttonset, div.ui-buttonset
+	{mso-style-name:ui-buttonset;
+	margin-right:5.25pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog, li.ui-dialog, div.ui-dialog
+	{mso-style-name:ui-dialog;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.corchete-llamada, li.corchete-llamada, div.corchete-llamada
+	{mso-style-name:corchete-llamada;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.infobox, li.infobox, div.infobox
+	{mso-style-name:infobox;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:12.0pt;
+	background:#F9F9F9;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.infoboxv2, li.infoboxv2, div.infoboxv2
+	{mso-style-name:infobox_v2;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:12.0pt;
+	line-height:18.0pt;
+	background:#F9F9F9;
+	border:none;
+	padding:0cm;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.navbox-title, li.navbox-title, div.navbox-title
+	{mso-style-name:navbox-title;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:center;
+	background:#CCCCFF;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-abovebelow, li.navbox-abovebelow, div.navbox-abovebelow
+	{mso-style-name:navbox-abovebelow;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:center;
+	background:#DDDDFF;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox, li.navbox, div.navbox
+	{mso-style-name:navbox;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FDFDFD;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-subgroup, li.navbox-subgroup, div.navbox-subgroup
+	{mso-style-name:navbox-subgroup;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FDFDFD;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-list, li.navbox-list, div.navbox-list
+	{mso-style-name:navbox-list;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-even, li.navbox-even, div.navbox-even
+	{mso-style-name:navbox-even;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#F7F7F7;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-odd, li.navbox-odd, div.navbox-odd
+	{mso-style-name:navbox-odd;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbar, li.navbar, div.navbar
+	{mso-style-name:navbar;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.collapsebutton, li.collapsebutton, div.collapsebutton
+	{mso-style-name:collapsebutton;
+	margin-right:0cm;
+	margin-left:6.0pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-collapsible-toggle, li.mw-collapsible-toggle, div.mw-collapsible-toggle
+	{mso-style-name:mw-collapsible-toggle;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.geo-default, li.geo-default, div.geo-default
+	{mso-style-name:geo-default;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.geo-dms, li.geo-dms, div.geo-dms
+	{mso-style-name:geo-dms;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.geo-dec, li.geo-dec, div.geo-dec
+	{mso-style-name:geo-dec;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.geo-nondefault, li.geo-nondefault, div.geo-nondefault
+	{mso-style-name:geo-nondefault;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.geo-multi-punct, li.geo-multi-punct, div.geo-multi-punct
+	{mso-style-name:geo-multi-punct;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.longitude, li.longitude, div.longitude
+	{mso-style-name:longitude;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.latitude, li.latitude, div.latitude
+	{mso-style-name:latitude;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.citado, li.citado, div.citado
+	{mso-style-name:citado;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#F9F9F9;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+p.notice, li.notice, div.notice
+	{mso-style-name:notice;
+	margin:12.0pt;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.parabiblios, li.parabiblios, div.parabiblios
+	{mso-style-name:para_biblios;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate0, li.rotate0, div.rotate0
+	{mso-style-name:rotate_0;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.rotate1, li.rotate1, div.rotate1
+	{mso-style-name:rotate_1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate2, li.rotate2, div.rotate2
+	{mso-style-name:rotate_2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate3, li.rotate3, div.rotate3
+	{mso-style-name:rotate_3;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate4, li.rotate4, div.rotate4
+	{mso-style-name:rotate_4;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate5, li.rotate5, div.rotate5
+	{mso-style-name:rotate_5;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate6, li.rotate6, div.rotate6
+	{mso-style-name:rotate_6;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate7, li.rotate7, div.rotate7
+	{mso-style-name:rotate_7;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate8, li.rotate8, div.rotate8
+	{mso-style-name:rotate_8;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.rotate9, li.rotate9, div.rotate9
+	{mso-style-name:rotate_9;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.mw-specialpages-table, li.mw-specialpages-table, div.mw-specialpages-table
+	{mso-style-name:mw-specialpages-table;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.interproject, li.interproject, div.interproject
+	{mso-style-name:interproject;
+	margin-top:24.0pt;
+	margin-right:0cm;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.messagebox, li.messagebox, div.messagebox
+	{mso-style-name:messagebox;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:12.0pt;
+	margin-left:0cm;
+	background:#F9F9F9;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.abbr, li.abbr, div.abbr
+	{mso-style-name:abbr;
+	margin-right:0cm;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-tag-marker, li.mw-tag-marker, div.mw-tag-marker
+	{mso-style-name:mw-tag-marker;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FFE599;
+	font-size:11.0pt;
+	font-family:"Arial","sans-serif";
+	font-style:italic;}
+p.mw-tag-marker-posiblevandalismo, li.mw-tag-marker-posiblevandalismo, div.mw-tag-marker-posiblevandalismo
+	{mso-style-name:mw-tag-marker-posible_vandalismo;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FEC29C;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-tag-marker-botspam, li.mw-tag-marker-botspam, div.mw-tag-marker-botspam
+	{mso-style-name:mw-tag-marker-botspam;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FEC29C;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-collapsible-toggle-collapsed, li.mw-collapsible-toggle-collapsed, div.mw-collapsible-toggle-collapsed
+	{mso-style-name:mw-collapsible-toggle-collapsed;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-collapsible-toggle-expanded, li.mw-collapsible-toggle-expanded, div.mw-collapsible-toggle-expanded
+	{mso-style-name:mw-collapsible-toggle-expanded;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+p.nowrap, li.nowrap, div.nowrap
+	{mso-style-name:nowrap;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ipa, li.ipa, div.ipa
+	{mso-style-name:ipa;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial Unicode MS","serif";}
+p.unicode, li.unicode, div.unicode
+	{mso-style-name:unicode;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial Unicode MS","serif";}
+p.js-messagebox-group, li.js-messagebox-group, div.js-messagebox-group
+	{mso-style-name:js-messagebox-group;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.special-label, li.special-label, div.special-label
+	{mso-style-name:special-label;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.special-query, li.special-query, div.special-query
+	{mso-style-name:special-query;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.special-hover, li.special-hover, div.special-hover
+	{mso-style-name:special-hover;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text, li.ui-button-text, div.ui-button-text
+	{mso-style-name:ui-button-text;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-titlebar, li.ui-dialog-titlebar, div.ui-dialog-titlebar
+	{mso-style-name:ui-dialog-titlebar;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-title, li.ui-dialog-title, div.ui-dialog-title
+	{mso-style-name:ui-dialog-title;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-titlebar-close, li.ui-dialog-titlebar-close, div.ui-dialog-titlebar-close
+	{mso-style-name:ui-dialog-titlebar-close;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-content, li.ui-dialog-content, div.ui-dialog-content
+	{mso-style-name:ui-dialog-content;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-buttonpane, li.ui-dialog-buttonpane, div.ui-dialog-buttonpane
+	{mso-style-name:ui-dialog-buttonpane;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.cabecera, li.cabecera, div.cabecera
+	{mso-style-name:cabecera;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.media, li.media, div.media
+	{mso-style-name:media;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-group, li.navbox-group, div.navbox-group
+	{mso-style-name:navbox-group;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.selflink, li.selflink, div.selflink
+	{mso-style-name:selflink;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.off, li.off, div.off
+	{mso-style-name:off;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.onn, li.onn, div.onn
+	{mso-style-name:onn;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.wrk, li.wrk, div.wrk
+	{mso-style-name:wrk;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.cll, li.cll, div.cll
+	{mso-style-name:cll;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.key, li.key, div.key
+	{mso-style-name:key;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.diffchange, li.diffchange, div.diffchange
+	{mso-style-name:diffchange;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.pbody, li.pbody, div.pbody
+	{mso-style-name:pbody;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-hierotable, li.mw-hierotable, div.mw-hierotable
+	{mso-style-name:mw-hierotable;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.plainlinksneverexpand, li.plainlinksneverexpand, div.plainlinksneverexpand
+	{mso-style-name:plainlinksneverexpand;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.urlexpansion, li.urlexpansion, div.urlexpansion
+	{mso-style-name:urlexpansion;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon-closethick, li.ui-icon-closethick, div.ui-icon-closethick
+	{mso-style-name:ui-icon-closethick;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.nofirmado
+	{mso-style-name:nofirmado;}
+span.texhtml
+	{mso-style-name:texhtml;}
+span.mw-geshi
+	{mso-style-name:mw-geshi;
+	font-family:"Courier New";}
+p.js-messagebox-group1, li.js-messagebox-group1, div.js-messagebox-group1
+	{mso-style-name:js-messagebox-group1;
+	margin:.75pt;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.special-label1, li.special-label1, div.special-label1
+	{mso-style-name:special-label1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";
+	color:gray;}
+p.special-query1, li.special-query1, div.special-query1
+	{mso-style-name:special-query1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;
+	font-style:italic;}
+p.special-hover1, li.special-hover1, div.special-hover1
+	{mso-style-name:special-hover1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:silver;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.special-label2, li.special-label2, div.special-label2
+	{mso-style-name:special-label2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.special-query2, li.special-query2, div.special-query2
+	{mso-style-name:special-query2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-widget1, li.ui-widget1, div.ui-widget1
+	{mso-style-name:ui-widget1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Arial","sans-serif";}
+p.ui-state-default1, li.ui-state-default1, div.ui-state-default1
+	{mso-style-name:ui-state-default1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#D7EBF9;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#2779AA;}
+p.ui-state-default2, li.ui-state-default2, div.ui-state-default2
+	{mso-style-name:ui-state-default2;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#D7EBF9;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#2779AA;}
+p.ui-state-hover1, li.ui-state-hover1, div.ui-state-hover1
+	{mso-style-name:ui-state-hover1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E4F1FB;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#0070A3;}
+p.ui-state-hover2, li.ui-state-hover2, div.ui-state-hover2
+	{mso-style-name:ui-state-hover2;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E4F1FB;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#0070A3;}
+p.ui-state-focus1, li.ui-state-focus1, div.ui-state-focus1
+	{mso-style-name:ui-state-focus1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E4F1FB;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#0070A3;}
+p.ui-state-focus2, li.ui-state-focus2, div.ui-state-focus2
+	{mso-style-name:ui-state-focus2;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E4F1FB;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#0070A3;}
+p.ui-state-active1, li.ui-state-active1, div.ui-state-active1
+	{mso-style-name:ui-state-active1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#F0F0F0;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.ui-state-active2, li.ui-state-active2, div.ui-state-active2
+	{mso-style-name:ui-state-active2;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#F0F0F0;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:black;}
+p.ui-state-highlight1, li.ui-state-highlight1, div.ui-state-highlight1
+	{mso-style-name:ui-state-highlight1;
+	margin-right:0cm;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#363636;}
+p.ui-state-highlight2, li.ui-state-highlight2, div.ui-state-highlight2
+	{mso-style-name:ui-state-highlight2;
+	margin-right:0cm;
+	margin-left:0cm;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#363636;}
+p.ui-state-error1, li.ui-state-error1, div.ui-state-error1
+	{mso-style-name:ui-state-error1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#CD0A0A;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-state-error2, li.ui-state-error2, div.ui-state-error2
+	{mso-style-name:ui-state-error2;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#CD0A0A;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-state-error-text1, li.ui-state-error-text1, div.ui-state-error-text1
+	{mso-style-name:ui-state-error-text1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-state-error-text2, li.ui-state-error-text2, div.ui-state-error-text2
+	{mso-style-name:ui-state-error-text2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:white;}
+p.ui-priority-primary1, li.ui-priority-primary1, div.ui-priority-primary1
+	{mso-style-name:ui-priority-primary1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.ui-priority-primary2, li.ui-priority-primary2, div.ui-priority-primary2
+	{mso-style-name:ui-priority-primary2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.ui-priority-secondary1, li.ui-priority-secondary1, div.ui-priority-secondary1
+	{mso-style-name:ui-priority-secondary1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-priority-secondary2, li.ui-priority-secondary2, div.ui-priority-secondary2
+	{mso-style-name:ui-priority-secondary2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-state-disabled1, li.ui-state-disabled1, div.ui-state-disabled1
+	{mso-style-name:ui-state-disabled1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-state-disabled2, li.ui-state-disabled2, div.ui-state-disabled2
+	{mso-style-name:ui-state-disabled2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon1, li.ui-icon1, div.ui-icon1
+	{mso-style-name:ui-icon1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon2, li.ui-icon2, div.ui-icon2
+	{mso-style-name:ui-icon2;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon3, li.ui-icon3, div.ui-icon3
+	{mso-style-name:ui-icon3;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon4, li.ui-icon4, div.ui-icon4
+	{mso-style-name:ui-icon4;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon5, li.ui-icon5, div.ui-icon5
+	{mso-style-name:ui-icon5;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon6, li.ui-icon6, div.ui-icon6
+	{mso-style-name:ui-icon6;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon7, li.ui-icon7, div.ui-icon7
+	{mso-style-name:ui-icon7;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon8, li.ui-icon8, div.ui-icon8
+	{mso-style-name:ui-icon8;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon9, li.ui-icon9, div.ui-icon9
+	{mso-style-name:ui-icon9;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-handle1, li.ui-resizable-handle1, div.ui-resizable-handle1
+	{mso-style-name:ui-resizable-handle1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:1.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.ui-resizable-handle2, li.ui-resizable-handle2, div.ui-resizable-handle2
+	{mso-style-name:ui-resizable-handle2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:1.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.ui-button-text1, li.ui-button-text1, div.ui-button-text1
+	{mso-style-name:ui-button-text1;
+	margin-right:0cm;
+	margin-left:0cm;
+	line-height:16.8pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text2, li.ui-button-text2, div.ui-button-text2
+	{mso-style-name:ui-button-text2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text3, li.ui-button-text3, div.ui-button-text3
+	{mso-style-name:ui-button-text3;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:595.95pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text4, li.ui-button-text4, div.ui-button-text4
+	{mso-style-name:ui-button-text4;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:595.95pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text5, li.ui-button-text5, div.ui-button-text5
+	{mso-style-name:ui-button-text5;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text6, li.ui-button-text6, div.ui-button-text6
+	{mso-style-name:ui-button-text6;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text7, li.ui-button-text7, div.ui-button-text7
+	{mso-style-name:ui-button-text7;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button-text8, li.ui-button-text8, div.ui-button-text8
+	{mso-style-name:ui-button-text8;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon10, li.ui-icon10, div.ui-icon10
+	{mso-style-name:ui-icon10;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-left:-6.0pt;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon11, li.ui-icon11, div.ui-icon11
+	{mso-style-name:ui-icon11;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon12, li.ui-icon12, div.ui-icon12
+	{mso-style-name:ui-icon12;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon13, li.ui-icon13, div.ui-icon13
+	{mso-style-name:ui-icon13;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon14, li.ui-icon14, div.ui-icon14
+	{mso-style-name:ui-icon14;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-icon15, li.ui-icon15, div.ui-icon15
+	{mso-style-name:ui-icon15;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-indent:367.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button1, li.ui-button1, div.ui-button1
+	{mso-style-name:ui-button1;
+	margin-right:-3.6pt;
+	margin-left:0cm;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button2, li.ui-button2, div.ui-button2
+	{mso-style-name:ui-button2;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:4.8pt;
+	text-align:center;
+	line-height:16.8pt;
+	background:#F2F2F2;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-button3, li.ui-button3, div.ui-button3
+	{mso-style-name:ui-button3;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:4.8pt;
+	text-align:center;
+	line-height:16.8pt;
+	background:#E1E1E1;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-titlebar1, li.ui-dialog-titlebar1, div.ui-dialog-titlebar1
+	{mso-style-name:ui-dialog-titlebar1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-title1, li.ui-dialog-title1, div.ui-dialog-title1
+	{mso-style-name:ui-dialog-title1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-titlebar-close1, li.ui-dialog-titlebar-close1, div.ui-dialog-titlebar-close1
+	{mso-style-name:ui-dialog-titlebar-close1;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-content1, li.ui-dialog-content1, div.ui-dialog-content1
+	{mso-style-name:ui-dialog-content1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-buttonpane1, li.ui-dialog-buttonpane1, div.ui-dialog-buttonpane1
+	{mso-style-name:ui-dialog-buttonpane1;
+	margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-resizable-se1, li.ui-resizable-se1, div.ui-resizable-se1
+	{mso-style-name:ui-resizable-se1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-titlebar-close2, li.ui-dialog-titlebar-close2, div.ui-dialog-titlebar-close2
+	{mso-style-name:ui-dialog-titlebar-close2;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-titlebar2, li.ui-dialog-titlebar2, div.ui-dialog-titlebar2
+	{mso-style-name:ui-dialog-titlebar2;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-widget-header1, li.ui-widget-header1, div.ui-widget-header1
+	{mso-style-name:ui-widget-header1;
+	margin-right:0cm;
+	margin-left:0cm;
+	line-height:12.0pt;
+	background:#F0F0F0;
+	border:none;
+	padding:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#222222;
+	font-weight:bold;}
+p.ui-icon-closethick1, li.ui-icon-closethick1, div.ui-icon-closethick1
+	{mso-style-name:ui-icon-closethick1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.ui-dialog-buttonpane2, li.ui-dialog-buttonpane2, div.ui-dialog-buttonpane2
+	{mso-style-name:ui-dialog-buttonpane2;
+	margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.cabecera1, li.cabecera1, div.cabecera1
+	{mso-style-name:cabecera1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:center;
+	font-size:17.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.media1, li.media1, div.media1
+	{mso-style-name:media1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:center;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	font-weight:bold;}
+p.navbox-title1, li.navbox-title1, div.navbox-title1
+	{mso-style-name:navbox-title1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:center;
+	background:#DDDDFF;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-group1, li.navbox-group1, div.navbox-group1
+	{mso-style-name:navbox-group1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#E6E6FF;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbox-abovebelow1, li.navbox-abovebelow1, div.navbox-abovebelow1
+	{mso-style-name:navbox-abovebelow1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:center;
+	background:#E6E6FF;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbar1, li.navbar1, div.navbar1
+	{mso-style-name:navbar1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.navbar2, li.navbar2, div.navbar2
+	{mso-style-name:navbar2;
+	margin-right:6.0pt;
+	margin-left:0cm;
+	font-size:10.5pt;
+	font-family:"Times New Roman","serif";}
+p.collapsebutton1, li.collapsebutton1, div.collapsebutton1
+	{mso-style-name:collapsebutton1;
+	margin-right:0cm;
+	margin-left:6.0pt;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.mw-collapsible-toggle1, li.mw-collapsible-toggle1, div.mw-collapsible-toggle1
+	{mso-style-name:mw-collapsible-toggle1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:right;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.off1, li.off1, div.off1
+	{mso-style-name:off1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:white;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";}
+p.onn1, li.onn1, div.onn1
+	{mso-style-name:onn1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#CCFFCC;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";}
+p.wrk1, li.wrk1, div.wrk1
+	{mso-style-name:wrk1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#CCCCFF;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";}
+p.cll1, li.cll1, div.cll1
+	{mso-style-name:cll1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FFFFDD;
+	border:none;
+	padding:0cm;
+	font-size:9.5pt;
+	font-family:"Times New Roman","serif";}
+p.key1, li.key1, div.key1
+	{mso-style-name:key1;
+	margin-right:0cm;
+	margin-left:0cm;
+	text-align:right;
+	border:none;
+	padding:0cm;
+	font-size:11.0pt;
+	font-family:"Times New Roman","serif";}
+p.urlexpansion1, li.urlexpansion1, div.urlexpansion1
+	{mso-style-name:urlexpansion1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	display:none;}
+p.diffchange1, li.diffchange1, div.diffchange1
+	{mso-style-name:diffchange1;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#B0E897;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#104000;
+	font-weight:bold;}
+p.diffchange2, li.diffchange2, div.diffchange2
+	{mso-style-name:diffchange2;
+	margin-right:0cm;
+	margin-left:0cm;
+	background:#FAE368;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	color:#9F0606;
+	font-weight:bold;}
+p.selflink1, li.selflink1, div.selflink1
+	{mso-style-name:selflink1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+p.pbody1, li.pbody1, div.pbody1
+	{mso-style-name:pbody1;
+	margin-right:0cm;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";}
+span.noprint
+	{mso-style-name:noprint;}
+span.bday
+	{mso-style-name:bday;}
+span.corchete-llamada1
+	{mso-style-name:corchete-llamada1;
+	display:none;}
+span.toctoggle
+	{mso-style-name:toctoggle;}
+span.tocnumber
+	{mso-style-name:tocnumber;}
+span.toctext
+	{mso-style-name:toctext;}
+span.editsection
+	{mso-style-name:editsection;}
+span.mw-headline
+	{mso-style-name:mw-headline;}
+span.TextodegloboCar
+	{mso-style-name:"Texto de globo Car";
+	mso-style-link:"Texto de globo";
+	font-family:"Tahoma","sans-serif";}
+.MsoChpDefault
+	{font-family:"Calibri","sans-serif";}
+.MsoPapDefault
+	{margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body lang=ES-AR link=blue vlink=purple>
+
+<div class=WordSection1>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:24.0pt;font-family:"Times New Roman","serif";
+color:black'>Microsoft Office</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Arial","sans-serif";color:black'><img
+width=468 height=351 src="MicrosoftOffice_archivos/image001.jpg"
+alt="Descripción: http://www.islabit.com/wp-content/imagenes/moffice2007.jpg"></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=363 style='width:272.4pt;
+ margin-left:12.0pt;background:#F9F9F9;border:solid #B4BBC8 1.0pt'>
+ <tr style='height:33.75pt'>
+  <td colspan=2 style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt;
+  height:33.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify'><b><span lang=ES-VE
+  style='font-size:15.5pt;font-family:"Times New Roman","serif";color:black'>Microsoft
+  Office</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE><span
+  lang=ES-AR style='font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'><img border=0 width=300 height=73 id="Imagen 1"
+  src="MicrosoftOffice_archivos/image002.png"
+  alt="Descripción: Microsoft Office 2010 Logo.svg"></span></span></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Desarrollador</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>Microsoft</span></b></span><span lang=ES-VE style='font-family:
+  "Times New Roman","serif";color:black'><br>
+  </span><span lang=ES-VE style='color:black'><i><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Página principal de Office Online</span></i></span></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Información
+  general</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Lanzamiento</span></b></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>1990</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Última versión estable</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>2010</span></span><span lang=ES-VE
+  style='font-family:"Times New Roman","serif";color:black'> (Compilación
+  14.0.6023.1000 SP1)<br>
+  </span><span lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black'>29 de junio de 2011</span><span lang=ES-VE style='font-size:
+  7.5pt;font-family:"Times New Roman","serif";color:black'>; hace 7 meses</span><span
+  lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black;display:none'>&nbsp;(</span><span lang=ES-VE style='font-size:
+  7.5pt;font-family:"Times New Roman","serif";color:black;display:none'>2011-06-29</span><span
+  lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black;display:none'>)</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Última versión en pruebas</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:
+  "Times New Roman","serif";color:black;text-decoration:none'>2012</span></span><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'> (Compilación 15.0)</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Género</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Suite Ofimática</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Programado en</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>C++</span></span><span lang=ES-VE style='font-family:
+  "Times New Roman","serif";color:black'>, </span><span lang=ES-VE
+  style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>C-sharp</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Sistema operativo</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Microsoft Windows</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Plataforma</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>Multiplataforma</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Licencia</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Propietario</span></span><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'> /
+  Microsoft CLUF (</span><span lang=ES-VE style='color:black'><span style='font-family:
+  "Times New Roman","serif";color:black;text-decoration:none'>EULA</span></span><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>)</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Idiomas</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>35+</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>En español</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE><span lang=ES-AR style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'><img border=0 width=16 height=16
+  id="Imagen 2" src="MicrosoftOffice_archivos/image003.png"
+  alt="Descripción: Sí."></span></span><span lang=ES-VE style='font-family:
+  "Times New Roman","serif";color:black'>&nbsp;</span></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Soporte
+  técnico</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black'>Todas las versiones de la suite ofimática Microsoft Office
+  reciben un grado variable de soporte, bajo la directiva de <b><i>Ciclo de
+  vida de soporte técnico de Microsoft</i></b> (<span style='color:black;
+  text-decoration:none'>info</span>)<br>
+  &#8595;<i>Véase: </i></span><span lang=ES-VE style='color:black'><i><span
+  style='font-size:7.5pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Ciclo de vida de los productos</span></i></span></p>  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;display:none'>&nbsp;</span></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0 width=363 style='width:272.4pt;
+ margin-left:12.0pt;background:#F9F9F9;border:solid #B4BBC8 1.0pt'>
+ <tr style='height:33.75pt'>
+  <td colspan=2 style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt;
+  height:33.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify'><b><span lang=ES-VE
+  style='font-size:15.5pt;font-family:"Times New Roman","serif";color:black'>Microsoft
+  Office: mac</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Desarrollador</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>Microsoft</span></b></span><span lang=ES-VE style='font-family:
+  "Times New Roman","serif";color:black'><br>
+  </span><span lang=ES-VE style='color:black'><i><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>Página principal de Office para Mac</span></i></span></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Información
+  general</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Lanzamiento</span></b></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>1989</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Última versión estable</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>2011</span></span><span lang=ES-VE
+  style='font-family:"Times New Roman","serif";color:black'> (Versión 14.0.0)<br>
+  </span><span lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black'>26 de octubre de 2010</span><span lang=ES-VE style='font-size:
+  7.5pt;font-family:"Times New Roman","serif";color:black'>; hace 1 año</span><span
+  lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black;display:none'>&nbsp;(</span><span lang=ES-VE style='font-size:
+  7.5pt;font-family:"Times New Roman","serif";color:black;display:none'>2010-10-26</span><span
+  lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black;display:none'>)</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Género</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Suite Ofimática</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Programado en</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>C++</span></span><span lang=ES-VE style='font-family:
+  "Times New Roman","serif";color:black'>, </span><span lang=ES-VE
+  style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Carbon</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Sistema operativo</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Mac OS</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Plataforma</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>Multiplataforma</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Licencia</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><span style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Propietario</span></span><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'> /
+  Microsoft CLUF (</span><span lang=ES-VE style='color:black'><span style='font-family:
+  "Times New Roman","serif";color:black;text-decoration:none'>EULA</span></span><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>)</span></p>  </td>
+ </tr>
+ <tr>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='color:black'><b><span
+  style='font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>En español</span></b></span></p>  </td>
+  <td valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE><span lang=ES-AR style='font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'><img border=0 width=16 height=16
+  id="Imagen 3" src="MicrosoftOffice_archivos/image003.png"
+  alt="Descripción: Sí."></span></span><span lang=ES-VE style='font-family:
+  "Times New Roman","serif";color:black'>&nbsp;</span></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;background:#DCEAEC;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><b><span
+  lang=ES-VE style='font-family:"Times New Roman","serif";color:black'>Soporte
+  técnico</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td colspan=2 valign=top style='border:none;padding:2.75pt 2.75pt 2.75pt 2.75pt'>
+  <p class=MsoNormal style='margin-top:6.0pt;margin-right:0cm;margin-bottom:
+  6.0pt;margin-left:0cm;text-align:justify;line-height:16.8pt'><span
+  lang=ES-VE style='font-size:7.5pt;font-family:"Times New Roman","serif";
+  color:black'>Todas las versiones de la suite ofimática Microsoft Office
+  reciben un grado variable de soporte, bajo la directiva de <b><i>Ciclo de
+  vida de soporte técnico de Microsoft</i></b> (<span style='color:black;
+  text-decoration:none'>info</span>)<br>
+  &#8595;<i>Véase: </i></span><span lang=ES-VE style='color:black'><i><span
+  style='font-size:7.5pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Ciclo de vida de los productos</span></i></span></p>  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>Microsoft Office</span></b><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black'> es una </span><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>suite de oficina</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> que abarca e interrelaciona aplicaciones de escritorio,
+servidores y servicios para los sistemas operativos </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Microsoft Windows</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>Mac OS X</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'>. Microsoft Office
+fue lanzado por Microsoft en </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>1989</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> para </span><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Apple Macintosh</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>,</span><span lang=ES-VE style='color:black'><sup><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;display:none;text-decoration:none'>[</span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>1<span style='display:none'>]</span></span></sup></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> más tarde seguido por una versión para Windows, en </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>1990</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>.</span><span
+lang=ES-VE style='color:black'><sup><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;display:none;text-decoration:none'>[</span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>2<span style='display:none'>]</span></span></sup></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> La primera versión de Office contenía </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Word</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>, </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Excel</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+PowerPoint</span></span><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>. Además, una versión &quot;Pro&quot;
+(profesional) de Office incluía </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Access</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>Schedule
+Plus</span></span><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>. Con el tiempo, las aplicaciones de Office han crecido
+sustancialmente y de forma más estrecha con características compartidas, como
+un </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>corrector
+ortográfico</span></span><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'> común, la integración de datos </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>OLE</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y el lenguaje de secuencias de comandos de Microsoft, </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>Visual
+Basic para aplicaciones</span></span><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black'>. Microsoft también
+posiciona Office como una plataforma de desarrollo para software de línea de
+negocios, bajo la marca de </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>Office Business Applications</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> (aplicaciones empresariales de Office u OBA por sus siglas en
+inglés).</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>La
+suite usó desde </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>1997</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> hasta </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>2003</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> un
+grupo de formatos conocido como 97-2003 o 98-2004. En los años </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>2007</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>2008</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> con
+la introducción de </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Office 2007</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Office 2008</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, se
+crearon un nuevo grupo de formatos denominados </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Office Open XML</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> (docx, xlsx, pptx), los cuales se mantienen en las más recientes
+versiones de la suite, </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Office 2010</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>Office
+2011 para Mac</span></span><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black'>.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>De
+acuerdo con Forrester Research, a </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Junio de 2009</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> las
+diferentes versiones de Microsoft Office son usadas por más del 80% de las
+empresas alrededor del mundo. La última versión (Office 2007/Office 2008) ocupa
+el 80% de las instalaciones. Actualmente, el paquete ofimático de Microsoft
+afronta una fuerte competencia por parte </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>OpenOffice.org</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>, </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>LibreOffice</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>IBM Lotus Symphony</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>, </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Google Docs</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>iWork</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Breve historia</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>Office
+hizo su aparición en </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>1989</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> en un </span><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Mac</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, y
+más adelante en </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>Windows</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> en </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>1990</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>. El
+término fue inicialmente usado en marketing para vender un <i>set</i> de
+aplicaciones, que previamente se vendían separadamente. El principal argumento
+de venta era que comprar el paquete completo resultaba más barato que comprar
+cada aplicación por separado. La primera versión de Office contenía las
+aplicaciones </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Word</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>, </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Excel</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+PowerPoint</span></span><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>. Adicionalmente, una llamada
+&quot;versión profesional&quot; de Office incluía también </span><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Access</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Schedule Plus</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>Con
+el transcurso de los años las aplicaciones de Office han crecido
+sustancialmente desde un punto de vista técnico, incluso comparten
+funcionalidades, tales como: corrector ortográfico común, un integrador de
+datos OLE y el lenguaje de <i>scripts</i> de </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Visual Basic</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> para Aplicaciones. Microsoft también posiciona a Office como una plataforma de
+desarrollo para la línea de software para negocios.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>Las
+versiones actuales son </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Office 2010</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> para Windows, lanzada el </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>15 de abril</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> de </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>2010</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y
+Office 2011 para Mac. Office 2010, anunciado el </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>15 de abril</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> de </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>2010</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> fue
+liberado el </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>15 de
+Abril</span></span><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> de </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>2010</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> para negocios a
+través de los canales de MSDN. Una nueva </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>interfaz de usuario</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y un nuevo formato de archivo primario basado en XML (llamado </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>OpenXML</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>)
+caracterizan esta versión.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>Este
+paquete como tal es, probablemente, el más antiguo y de mayores prestaciones.<sup>[</sup></span><span
+lang=ES-VE style='color:black'><i><sup><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>cita&nbsp;requerida</span></sup></i></span><sup><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>]</span></sup><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'> Hay quienes creen que es uno de los
+mejores productos conjuntos (set) de microsoft, y desde hace más de 10 años es
+el más popular.<sup>[</sup></span><span lang=ES-VE style='color:black'><i><sup><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>cita&nbsp;requerida</span></sup></i></span><sup><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>]</span></sup><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'> El </span><span lang=ES-VE
+style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>iWork</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> de
+Mac es un rival para ese paquete propietario.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>Microsoft
+siguió con Office la estela del paquete </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Lisa Office System</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> de </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Apple</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> que
+ya en 1983 ofrecía procesador de texto y hoja de cálculo entre sus siete
+aplicaciones, bajo un sistema operativo con ventanas, escritorio y papelera, 12
+años antes del Windows 95.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>La
+última versión RTM, llamada Office 2010 ó también llamada Office 14, se lanzó
+al mercado el 15 de junio de 2010, dicha versión es la compilación
+14.0.4760.1000, la cual se encuentra disponible en 35 idiomas.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Programas comunes de Office</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:13.5pt;font-family:"Times New Roman","serif";
+color:black'>Word</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Word</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> es el </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>procesador de
+textos</span></span><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> de la suite. Word posee una posición dominante en el mercado de
+los procesadores de texto. Su formato propietario DOC es considerado un
+estándar </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>de facto</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'>, aunque en su más
+reciente versión, Word 2007 utiliza un nuevo formato basado en XML llamado
+.DOCX, pero también tiene la capacidad de guardar y abrir documentos en el
+formato DOC. Word está también incluido en algunas versiones de </span><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Works</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>. Está disponible para las plataformas </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Microsoft Windows</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>Mac OS</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'>. La primera versión
+de Word, liberada en </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>1983</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'>, fue para el sistema
+operativo </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>MS-DOS</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> y tuvo la distinción
+de introducir en el uso del </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>mouse</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> a una gran cantidad
+de personas. Word 1.0 podía ser comprado con un mouse, aunque era opcional. La
+siguiente </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>primavera</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Apple</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> lanzó el Mac, y Microsoft desarrolló Word para Mac, el cual se convirtió en la
+aplicación más popular para este sistema. Requería (como todas las aplicaciones
+para Mac) la utilización de un ratón.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>Extensiones comunes:</span></b><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> .doc (Word 97-2003),
+.docx (Word 2007-2010), .dot, rtf (todas).</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:13.5pt;font-family:"Times New Roman","serif";
+color:black'>Excel</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Excel</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> es un programa de hoja o planilla de cálculo. Al igual que Microsoft
+Word, posee actualmente un mercado dominante. Fue originalmente el más fuerte
+competidor del entonces popular </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Lotus 1-2-3</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, y
+en tercera posición estuvo </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Quattro Pro</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>;
+pero eventualmente Excel se vendió más, se popularizó y se convirtió en el
+estándar de facto. Está disponible para plataformas </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Windows</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Macintosh</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>.<sup>[<i><span style='color:black;text-decoration:
+none'>cita&nbsp;requerida</span></i>]</sup></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>Extensiones comunes:</span></b><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> .xls (Excel
+97-2003), .xlsx (Excel 2007-2010)</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>PowerPoint</span><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'></span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Arial","sans-serif";color:black'><img
+border=0 width=589 height=398 src="MicrosoftOffice_archivos/image004.jpg"
+alt="Descripción: http://imagenes.es.sftcdn.net/es/scrn/84000/84501/microsoft-office-2010-19.jpg"></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+PowerPoint</span></span><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'> es un muy popular programa para
+desarrollar y desplegar presentaciones visuales en entornos </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Windows</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Mac</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>. Es
+usado para crear diapositivas multimediales, es decir,compuestas por texto,
+imágenes, sonido, animaciones y vídeos. </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Office Mobile</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+para </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Windows Mobile</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> 5.0 y versiones posteriores poseen una versión de PowerPoint
+llamada PowerPoint Mobile. Esta versión reducida permite incluso agregar vídeos
+y sonido a las diapositivas.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>Extensiones comunes:</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> <i>.ppt, pps
+(Powerpoint 97-2003), .pptx, .ppsx (Powerpoint 2007-2010)</i></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+style='font-size:13.5pt;font-family:"Times New Roman","serif";color:black'>Outlook/Entourage</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Outlook</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> (no confundir con </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>Outlook
+Express</span></span><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>) es un administrador de información
+personal y un complejo cliente de correo electrónico. El reemplazo para </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:none'>Windows
+Messaging</span></span><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black'>, </span><span lang=ES-VE
+style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+Mail</span></span><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> y </span><span lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;
+font-family:"Times New Roman","serif";color:black;text-decoration:none'>Schedule+</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'> comenzó en la versión 97 de Office. Incluía un cliente de correo
+electrónico, un calendario, un administrador de tareas y un directorio de
+contacto. Aunque históricamente ha estado disponible para Mac, el equivalente
+más cercano para </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>Mac OS X</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> es </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Microsoft Entourage</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>, el cual ofrece un conjunto más reducido de funcionalidades.</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>Extensiones comunes:</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'> <i>.msg .pst
+(Outlook 97-2003)</i>, - Microsoft Outlook 2007</span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Servicios Web</span></b></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif";color:black;text-decoration:none'>Office Web
+     Apps</span></span><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'> - Servicios de aplicaciones web basadas en
+     Microsoft Office para crear y editar documentos online.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><span lang=ES style='font-size:
+     12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+     none'>Office Live</span></span> </li>
+ <ul type=circle>
+  <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+      lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+      Live Small Business - Servicios de alojamiento web y herramientas de
+      colaboración online para empresas pequeñas.</span></li>
+  <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+      lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+      Live Workspace - Almacenamiento online y servicio de colaboración para
+      documentos de Office.</span></li>
+ </ul>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><span lang=ES style='font-size:
+     12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+     none'>Live Meeting</span></span><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif"'> - Servicio de conferecias web.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Página
+     web de Microsoft Office - Brinda soporte a todos los productos Microsoft
+     Office.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+     Update</span></span><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'> - Permite descargar actualizaciones para los
+     productos Office.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+     Office 365</span></span><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif"'> - Versión de Office basada en la <b>nube</b>,
+     puesta a la venta a principios de 2011.</span></li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Ciclo de vida de los productos</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>Desde
+</span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>2002</span></span><span lang=ES style='font-size:
+12.0pt;font-family:"Times New Roman","serif";color:black'>, </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> estableció la directiva de ciclos de vida de productos.</span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Versiones
+     anteriores a Office 97 (incluyendo Outlook 97) se encuentran sin soporte.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office 97 (incluye Outlook 98): el soporte principal acabó el </span><span
+     lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif";color:black;text-decoration:none'>31 de agosto</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2001</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>. El
+     soporte extendido se terminó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>28 de febrero</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2002</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>. El
+     soporte asistido acabó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>16 de enero</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2004</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office 2000: el soporte principal acabó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>30 de junio</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2004</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>. El
+     soporte extendido se terminó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>14 de julio</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2009</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office XP: el soporte principal acabó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>11 de julio</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2006</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>. El
+     soporte extendido se terminó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>12 de julio</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2011</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office 2003: el soporte principal acabó el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>13 de enero</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2009</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>, mientras
+     que el soporte extendido acabará el </span><span lang=ES-VE><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>14 de enero</span></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> de
+     </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>2014</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Versiones
+     actuales y futuras: el soporte principal será de 5 años después de su
+     lanzamiento, o 2 años después del lanzamiento de la versión siguiente.</span><span
+     lang=ES-VE><sup><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;display:none;text-decoration:none'>[</span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+     color:black;text-decoration:none'>3<span style='display:none'>]</span></span></sup></span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'> El
+     soporte extendido acabará 5 años desde el término del soporte principal.</span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'></span></li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Ediciones</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>La última
+versión de la suite ofimática es Office 2010. La versión para Windows de
+Microsoft Office 2010 está disponible en 5 ediciones:</span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office Starter.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office Hogar y Estudiantes 2010.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office Hogar y Pequeña Empresa 2010.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office Professional 2010.</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Office Professional Plus 2010.</span></li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>La
+versión para Mac, Microsoft Office para Mac 2004, está disponible en tres
+ediciones. Todas incluyen </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Microsoft Word</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>, </span><span lang=ES-VE style='color:black'><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+text-decoration:none'>PowerPoint</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+lang=ES-VE style='color:black'><span lang=ES style='font-size:12.0pt;font-family:
+"Times New Roman","serif";color:black;text-decoration:none'>Entourage</span></span><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black'>. El software incluido es idéntico en cada paquete excepto por la
+versión profesional, que incluye </span><span lang=ES-VE style='color:black'><span
+lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif";
+color:black;text-decoration:none'>Virtual PC</span></span><span lang=ES
+style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>. La
+versión &quot;Students and Teachers&quot; no puede ser actualizada, lo cual
+quiere decir que cuando una nueva versión de Office sea liberada, la persona
+que compró la mencionada versión deberá adquirir nuevamente el paquete
+completo, el cual costará más, comparado con uno de sólo actualización.</span></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+     for Mac 2004 Student and Teacher Edition</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+     for Mac 2004 Standard Edition</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+     for Mac 2004 Professional Edition</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+     for Mac 2008</span></li>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Office
+     for Mac 2011 Home &amp; Student</span><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'></span></li>
+</ul>
+
+<table class=MsoNormalTable border=0 cellpadding=0>
+ <tr>
+  <td colspan=2 style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Contenido de </span><span
+  lang=ES-VE style='color:black'><a
+  href="http://es.wikipedia.org/wiki/Microsoft_Office_2004_para_Mac"
+  title="Microsoft Office 2004 para Mac"><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+  Office 2004 para Mac</span></a><a
+  href="http://es.wikipedia.org/wiki/Microsoft_Office#cite_note-3"><sup><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  display:none;text-decoration:none'>[</span></sup><sup><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>4<span style='display:none'>]</span></span></sup></a></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Student and
+  Teacher/Standard</span></b></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Professional</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Excel</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Excel</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>PowerPoint</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>PowerPoint</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Entourage</span></p>
+  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Entourage</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'></td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Virtual PC</span></p>
+  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Versiones</span></b></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><span
+style='font-size:10.0pt;font-family:"Arial","sans-serif";color:black'><img
+border=0 width=243 height=208 src="MicrosoftOffice_archivos/image005.jpg"></span></p>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:13.5pt;font-family:"Times New Roman","serif";
+color:black'>Versiones para Windows</span></b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Versión</span></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Fecha</span></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Componentes</span></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Comentarios</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>3.0 (90)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>30 de agosto</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1990</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2.0c, Excel 4.0a,
+  PowerPoint 3.0, Mail.</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>4.0</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>17 de enero</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1994</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 6.0, Excel 4.0,
+  PowerPoint 3.0</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>4.2</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>3 de julio</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1994</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 6.0, Excel 5.0,
+  PowerPoint 4.0, Office Manager</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Versiones compatibles con
+  16 bits, 32 bits y Alpha</span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>4.3</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>2 de junio</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1994</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 6.0, Excel 5.0,
+  PowerPoint 4.0, Mail 3.2, Access 2.0</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Última versión compatible
+  con 16 bits; última versión para </span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows 3.x</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>NT</span></span><span lang=ES-VE style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black'> 3.1 y 3.5</span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>7.0 (95)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>30 de agosto</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1995</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 7.0, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Coincide con el
+  lanzamiento de </span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows 95</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>8.0 (97)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>30 de diciembre</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1996</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 97, Excel 97,
+  PowerPoint 97, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Ediciones en 1 </span><span
+  lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>CD-ROM</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'> y
+  en 45 disquetes, la versión Service Release 2 corrigió el problema del año
+  2000; última versión para </span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows NT</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  3.51</span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>9.0 (2000)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>27 de enero</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1999</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2000, Excel 2000,
+  PowerPoint 2000, Access 2000, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Última versión para </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows 95</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>10.0 (XP/2002)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>31 de mayo</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2001</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2002, Excel 2002,
+  PowerPoint 2002, Access 2002, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Última versión para </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows 98</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Me</span></span><span lang=ES-VE style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black'> y </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>NT 4</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>;
+  compatibilidad mejorada para trabajo en cuentas restrictivas en sistemas de
+  la línea NT (</span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows 2000</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>, </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>XP</span></span><span lang=ES-VE style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black'>)</span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>11.0 (2003)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>17 de noviembre</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2003</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2003, Excel 2003,
+  PowerPoint 2003, Access 2003, Outlook 2003, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Última versión para </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows 2000</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>12.0 (2007)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>30 de
+  enero de 2007</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2007, Excel 2007,
+  PowerPoint 2007, Access 2007, Outlook 2007, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Lanzado junto con </span><span
+  lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>Windows Vista</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>,
+  nueva </span><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:
+  "Times New Roman","serif";color:black;text-decoration:none'>interfaz gráfica
+  de usuario</span></span><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>, nuevos formatos de
+  archivo </span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>OpenXML</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>.</span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>14.0 (2010)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>15 de
+  junio de 2010</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2010, Excel 2010,
+  PowerPoint 2010, Access 2010, Outlook 2010, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Su número de versión no es
+  13 por </span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>superstición</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>;</span><span
+  lang=ES-VE style='color:black'><sup><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  display:none;text-decoration:none'>[</span><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>5<span style='display:none'>]</span></span></sup></span><span
+  lang=ES-VE style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black'> es distribuido en versiones de 32 y 64 bits</span><span
+  lang=ES-VE style='color:black'><sup><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  display:none;text-decoration:none'>[</span><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>6<span style='display:none'>]</span></span></sup></span> <span lang=ES-VE style='color:black'><sup><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  display:none;text-decoration:none'>[</span><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>7<span style='display:none'>]</span></span></sup></span></p>  </td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:13.5pt;font-family:"Times New Roman","serif";
+color:black'>Versiones para Mac</span></b></p>
+
+<table class=MsoNormalTable border=1 cellpadding=0>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Versión</span></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Fecha</span></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Componentes</span></b></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><b><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Comentarios</span></b></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>1.0</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1990</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 3.0, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>2.0</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1992</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 4.0, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>3.0</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1993</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 5.0, Excel 4.0,
+  PowerPoint 3.0, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>4.2</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1994</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 6.0, Excel 5.0,
+  PowerPoint 4.0, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>4.2.1</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>2 de junio</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1994</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 6.0.1, Excel 5.0,
+  PowerPoint 4.0, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>8.0 (98)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>15 de marzo</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>1998</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 98, Excel 98,
+  PowerPoint 98, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>9.0 (2001)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>11 de octubre</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2000</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2001, Excel 2001,
+  PowerPoint 2001, ...</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>10.1.9 (X)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>19 de noviembre</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2001</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word X, Excel X,
+  PowerPoint X, ...</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>primera versión para </span><span
+  lang=ES-VE style='color:black'><span style='font-size:12.0pt;font-family:"Times New Roman","serif";
+  color:black;text-decoration:none'>Mac OS X</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>11.3.5
+  (2004)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>11 de mayo</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2004</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2004, Excel 2004,
+  PowerPoint 2004 y Entourage 2004</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>11.5.5 (2004)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>09 de junio</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2009</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2004, Excel 2004,
+  PowerPoint 2004 y Entourage 2004</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>12.0
+  (2008)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>15 de
+  enero de 2008</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2008, Excel 2008,
+  PowerPoint 2008 y Entourage 2008</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>primera versión con
+  soporte para </span><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>AppleScript</span></span></p>  </td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>12.1.0 (2008)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>14 de
+  mayo de 2008</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2008, Excel 2008,
+  PowerPoint 2008 y Entourage 2008</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>12.1.9 (2008)</span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>9 de
+  junio de 2009</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2008, Excel 2008,
+  PowerPoint 2008 y Entourage 2008</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+ <tr>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black;text-decoration:none'>14.0.0
+  (2011)</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=ES-VE style='color:black'><span
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+  text-decoration:none'>26 de octubre</span></span><span lang=ES-VE
+  style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black'>
+  de </span><span lang=ES-VE style='color:black'><span style='font-size:
+  12.0pt;font-family:"Times New Roman","serif";color:black;text-decoration:
+  none'>2010</span></span></p>  </td>
+  <td style='padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal'><span lang=EN-US style='font-size:12.0pt;
+  font-family:"Times New Roman","serif";color:black'>Word 2011, Excel 2011,
+  PowerPoint 2011 y Outlook 2011</span></p>  </td>
+  <td style='border:none;padding:.75pt .75pt .75pt .75pt'></td>
+ </tr>
+</table>
+
+<p class=MsoNormal style='text-align:justify;line-height:normal'><b><span
+lang=ES style='font-size:18.0pt;font-family:"Times New Roman","serif";
+color:black'>Aplicaciones descontinuadas</span></b></p>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><b><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+     FrontPage</span></b></span><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif"'>: software de diseño web. Ofrecido
+     hasta la versión 2003. En 2006, Microsoft anunció que éste debía ser
+     reemplazado por dos aplicaciones: </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+     SharePoint Designer</span></span><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif"'> y </span><span lang=ES-VE><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+     Expression Web</span></span><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif"'>.</span></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><b><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Mail</span></b><span lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>:
+     cliente del correo sustituida por Microsoft Schedule y posteriormente </span><span
+     lang=ES-VE><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif";color:black;text-decoration:none'>Microsoft
+     Outlook</span></span><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'>.</span></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><b><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     PhotoDraw</span></b><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'>: programa de gráficos vectoriales. Lanzado
+     como opción en la versión 2000.</span></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><b><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Photo Editor</span></b><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'>: software de edición de imágenes. Incluido
+     hasta la versión 2002/XP.</span></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><b><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Microsoft
+     Schedule Plus</span></b><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'>: gestor de calendario y lista del contactos.
+     Sus funciones fueron incorporadas en Microsoft Outlook.</span></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><span
+     lang=ES-VE><b><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif";color:black;text-decoration:none'>Ayudante
+     de Office</span></b></span><span lang=ES style='font-size:12.0pt;
+     font-family:"Times New Roman","serif"'>: conjunto de personajes animados
+     que ofrecían sugerencias y ayuda a los usuarios. El más conocido fue un
+     clip llamado Clippo. Desaparece a partir de la versión 2007.</span></li>
+</ul>
+
+<ul type=disc>
+ <li class=MsoNormal style='color:black;text-align:justify;line-height:normal'><b><span
+     lang=ES style='font-size:12.0pt;font-family:"Times New Roman","serif"'>Cuaderno
+     de Microsoft</span></b><span lang=ES style='font-size:12.0pt;font-family:
+     "Times New Roman","serif"'>: programa contenedor de múltiples documentos
+     de Office activos. Desaparece a partir de la versión 2003 y es sustituido
+     parcialmente por </span><span lang=ES-VE><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif";color:black;
+     text-decoration:none'>OneNote</span></span><span lang=ES
+     style='font-size:12.0pt;font-family:"Times New Roman","serif"'>.</span></li>
+</ul>
+
+<p class=MsoNormal style='text-align:justify'>&nbsp;</p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='color:black'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+line-height:115%;font-family:"Arial","sans-serif";color:black'><img border=0
+width=576 height=532 id="il_fi" src="MicrosoftOffice_archivos/image006.jpg"
+alt="Descripción: http://www.win-7.es/wp-content/uploads/2010/10/img-icons-a-png-microsoft-office-2007-talwayseb-6409.jpg"></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span lang=ES style='color:black'>&nbsp;</span></p>
+</div>
+
+</body>
+
+</html>
